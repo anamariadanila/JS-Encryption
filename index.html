@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cipher</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@100&family=Philosopher&family=Pridi:wght@200&family=Volkhov:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="container">
+        <h1 class="title">Cipher</h1>
+        <div class="message">
+          <p class="text-label">Enter your message here:</p>
+          <textarea
+            class="text-area"
+            id="initial-message"
+            cols="45"
+            rows="3"
+          ></textarea>
+        </div>
+        <div class="secret-code">
+          <p class="text-label">Enter secret code:</p>
+          <textarea
+            id="secret-code"
+            class="text-area"
+            cols="45"
+            rows="3"
+          ></textarea>
+          <div class="buttons">
+            <button id="btn-encrypt" class="btn">Encrypt</button>
+            <button id="btn-decrypt" class="btn">Decrypt</button>
+          </div>
+        </div>
+        <div class="enc-message">
+          <p class="text-label" id="enc-dec">Your encrypted message:</p>
+          <textarea
+            id="enc-message"
+            class="text-area"
+            cols="45"
+            rows="3"
+          ></textarea>
+          <button id="btn-copy" class="btn">Copy</button>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
