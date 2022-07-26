@@ -2,6 +2,7 @@ body {
   background-image: url("/img/img.png");
   display: flex;
   height: 100vh;
+  width: 100vw;
   margin: 0;
   font-family: "Philosopher", sans-serif;
   color: rgb(68, 70, 70);
@@ -18,8 +19,9 @@ body {
   align-items: center;
   margin: 0 auto;
   float: none;
-  margin-bottom: 90px;
-  margin-top: 80px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  min-width: 500px;
 }
 
 .card:hover {
@@ -35,13 +37,13 @@ h1 {
   justify-content: center;
   align-items: center;
   font-size: 50px;
+  margin-bottom: 1rem;
 }
 
 .message {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .text-label {
@@ -56,6 +58,7 @@ h1 {
   border-radius: 10px;
   border: 1px solid #ccc;
   box-shadow: 1px 1px 1px rgb(107, 120, 117);
+  width: 90%;
 }
 
 textarea:focus,
@@ -67,7 +70,6 @@ input:focus {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .buttons {
@@ -129,7 +131,6 @@ button:hover::before {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 #btn-copy {
